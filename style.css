@@ -1,0 +1,23 @@
+.body{
+      height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+    background-color: #52595D;
+    padding: 2px;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 16px;
+    list-style: none;
+}
