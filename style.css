@@ -3,6 +3,7 @@
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  
 }
 
 .header {
@@ -11,13 +12,31 @@
     align-items: center;
     font-size: large;
     font-weight: bolder;
-    background-color: #52595D;
+    color: white;
+    background-color: #1F2937;
     padding: 2px;
 }
 .links{
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
+    color: white;
     gap: 16px;
     list-style: none;
+}
+
+.main div{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    flex-wrap: wrap;
+}
+
+.button1{
+    font-family: Roboto, sans-serif;
+    border: black;
+    border-radius: 8px;
+    background: #3882f6;
 }
