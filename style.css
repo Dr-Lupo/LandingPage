@@ -51,6 +51,7 @@
 
 .container{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
@@ -61,6 +62,7 @@
 
 }
 .square{
+    flex: 1;
     flex-direction: column;
     background-color: white;
     border: solid;
@@ -68,8 +70,15 @@
     border-radius: 8px;
     margin: 33px;
     height: 150px;
-    flex-wrap: wrap;
 }
+
+.subtext {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 10px;
+  }
 
 .quote{
     display: flex;
