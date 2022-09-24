@@ -2,7 +2,7 @@
       height: 100vh;
   margin: 0;
   overflow: hidden;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   
 }
 
@@ -12,6 +12,7 @@
     align-items: center;
     font-size: large;
     font-weight: bolder;
+    font-family: 'Roboto';
     color: white;
     background-color: #1F2937;
     padding: 2px;
@@ -21,34 +22,54 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    color: white;
+    font-family: 'Roboto';
+    color: #e5e7eb;
     gap: 16px;
     list-style: none;
 }
 
 .main{
   display: flex;
-   justify-content: space-between;
-   margin-bottom: 50px;
+  flex-direction: column;
+   flex-wrap: wrap;
+   background-color: #1F2937;
+   font-family: 'Roboto';
+   margin-bottom: 25px;
+   padding-left: 25px;
 }
 
-.Image{
-    flex: 1;
-    
+.awesome{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.text{
+    align-self: flex-start;
+    color: #f9faf8;
 }
 
 .button1{
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto';
     border: black;
     border-radius: 8px;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
     background: #3882f6;
 }
 
 .Image{
-    display: flex;
-    align-self: flex-end; 
+    align-self: flex-end;
+  
 }
 
+.above{
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;  
+}
 .container{
     display: flex;
     flex-direction: row;
@@ -62,7 +83,6 @@
 
 }
 .square{
-    flex: 1;
     flex-direction: column;
     background-color: white;
     border: solid;
@@ -76,6 +96,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-family: 'Roboto';
     margin-right: 100px;
     margin-left: 10px;
   }
@@ -86,9 +107,11 @@
     flex-wrap: wrap;
     align-items: center;
     font-size: large;
-    font-weight: bolder;
-    color: white;
-    background-color: #1F2937;
+    font-family: 'Roboto';
+    font-weight: 100;
+    text-align: center;
+    background-color: #e5e7eb;
+    color: #1F2937;
     padding: 2px;
 }
 
@@ -96,12 +119,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: large;
+    font-size: medium;
     font-weight: bolder;
+    font-family: 'Roboto';
     color: white;
     background-color: #1F2937;
     padding: 2px;
-    margin-top: 11vmax;
+    margin-top: 13vmax;
      
 }
 
@@ -109,6 +133,7 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
+    font-family: 'Roboto';
     color: white;
     gap: 16px;
     list-style: none;
