@@ -28,42 +28,42 @@
     list-style: none;
 }
 
-.main{
-  display: flex;
-  flex-direction: column;
-   flex-wrap: wrap;
-   background-color: #1F2937;
-   font-family: 'Roboto';
-   margin-bottom: 25px;
-   padding-left: 25px;
-}
-
-.awesome{
+.main {
+    display: flex;
+    background-color: #1F2937;
+    font-family: 'Roboto';
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    justify-content: space-around;
+    align-items: start;
+  }
+  
+  .awesome {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-}
-
-.text{
+  }
+  
+  .text {
     align-self: flex-start;
     color: #f9faf8;
-}
-
-.button1{
-    font-family: 'Roboto';
-    border: black;
-    color: #f9faf8;
-    border-radius: 8px;
-    padding: 10px;
+  }
+  
+  .button1 {
+    border-color: white;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 2px;
+    padding: 5px;
     width: fit-content;
     height: fit-content;
-    background: #3882f6;
-}
-
-.Image{
-    align-self: flex-end;
+  }
   
-}
+  .Image {
+    justify-content: space-between;
+    padding-top: 33px;
+  }
 
 .above{
     font-family: 'Roboto';
@@ -83,14 +83,28 @@
     text-align: center;
 
 }
-.square{
+
+
+.square1{
+    background-image: url("Images/rocket.png");
     flex-direction: column;
-    background-color: white;
     border: solid;
     border-color: #3882f6;
     border-radius: 8px;
     margin: 33px;
     height: 150px;
+}
+
+.square2{
+    
+}
+
+.square3{
+    
+}
+
+.square4{
+    
 }
 
 .subtext {
