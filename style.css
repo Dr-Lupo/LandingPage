@@ -3,6 +3,10 @@
   margin: 0;
   overflow: hidden;
   font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #1F2937;
   
 }
 
@@ -76,45 +80,24 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-top: 25px;
+    margin-left: 20px;
+  
 }
 
-.container>div{
-    flex: 1;
-    text-align: center;
-
+.img{
+  width: 200px;
 }
 
 
-.square1{
-    background-image: url("Images/rocket.png");
-    flex-direction: column;
-    border: solid;
-    border-color: #3882f6;
-    border-radius: 8px;
-    margin: 33px;
-    height: 150px;
-}
-
-.square2{
-    
-}
-
-.square3{
-    
-}
-
-.square4{
-    
-}
 
 .subtext {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-around;
     font-family: 'Roboto';
-    margin-right: 100px;
-    margin-left: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
+    margin-top: 20px;
+    margin-left: 20px;
   }
 
 .quote{
